@@ -22,7 +22,7 @@ void (*MK12HOOKSDK::ImGui_Separator)() = nullptr;
 bool (*MK12HOOKSDK::ImGui_CollapsingHeader)(const char*) = nullptr;
 bool (*MK12HOOKSDK::ImGui_ColorEdit4)(const char*, float*) = nullptr;
 uintptr_t(*MK12HOOKSDK::GetPattern)(const char*, int) = nullptr;
-int (*MK12HOOKSDK::CreateHook)(LPVOID, LPVOID, LPVOID*) = nullptr;
+int (*MK12HOOKSDK::CreateHook)(void*, void*, void**) = nullptr;
 void (*MK12HOOKSDK::PushNotif)(int, const char*) = nullptr;
 const char* (*MK12HOOKSDK::GetVersion)() = nullptr;
 

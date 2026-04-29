@@ -3,16 +3,13 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="SDK.cpp" />
-    <ClCompile Include="unreal\FName.cpp">
-      <Filter>unreal</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SDK.h" />
-    <ClInclude Include="unreal\FName.h">
+    <ClInclude Include="unreal\UObject.h">
       <Filter>unreal</Filter>
     </ClInclude>
-    <ClInclude Include="unreal\UObject.h">
+    <ClInclude Include="unreal\FName.h">
       <Filter>unreal</Filter>
     </ClInclude>
   </ItemGroup>
